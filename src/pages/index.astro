@@ -1,0 +1,21 @@
+---
+import Card from "../components/Card.astro";
+import Hero from "../components/Hero.astro";
+import Navbar from "../components/Navbar.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Home</title>
+		<style>
+			body { background-color: beige; margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+		</style>
+	</head>
+	<body>
+		<Navbar/>
+		<Hero/>
+	</body>
+</html>
